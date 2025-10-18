@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap'); /* fuente para h1 */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600&display=swap'); /* fuente para h3 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@450&display=swap'); /* fuenta para h4 */
+@import url('https://fonts.googleapis.com/css2?family=Sansation&display=swap'); /* fuente para p */
+
+
+/* Estilo general */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #FFB13B;
+  color: #17080d;
+}
+
+img{
+width: 40%;
+display: block;
+height: auto;
+margin: auto;
+border: 3px solid #FFB13B;
+}
+
+/* Encabezado */
+header{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1{
+    font-family: 'Candal';
+    margin-bottom: 20px;    
+}
+
+h3{
+    font-family: 'Bricolage Grotesque';
+    margin-bottom: 15px;
+}
+
+h4{
+    font-family: 'Roboto';
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-family: 'Sansation';
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.col {
+  border: 2px solid red;
+  padding: 10px;
+}
+
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.boton:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  background-color: transparent;
+}
